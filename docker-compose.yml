@@ -1,0 +1,52 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7.40
+    container_name: mysql_db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: housesdb
+    volumes:
+      - app-data:/var/lib/mysql
+    networks:
+      - my-network
+
+  api:
+    image: arsene00/real_estate_web_project_api
+    container_name: node_api
+    ports:
+      - "3005:3005"
+    environment:
+      DB_HOST: mysql_db
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: password
+      DB_NAME: housesdb
+    depends_on:
+      - db
+    networks:
+      - my-network
+
+  web:
+    image: arsene00/real_estate_web_project_frontend
+    container_name: react_app
+    ports:
+      - "3000:3000"
+    
+    depends_on:
+      - db
+      - api
+    
+    networks:
+      - my-network
+      
+networks:
+  my-network:
+    driver: bridge
+
+volumes:
+  app-data:
+

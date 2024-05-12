@@ -1,0 +1,21 @@
+.imgResponsive {
+    max-width: 100%;
+    height: auto
+}
+
+.bgInfos {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+h4 {
+    color:black;
+}
+.textCenter {
+    text-align: center;
+    color: white;
+}
+
+.bgYellow {
+    background-color: beige;
+}

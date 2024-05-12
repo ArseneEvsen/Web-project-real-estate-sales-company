@@ -1,0 +1,30 @@
+.bg {
+    background-image: url("../../../public/r-architecture-2gDwlIim3Uw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+} 
+
+.tagline {
+    background-color:rgba(128, 128, 128, 0.548);
+    position: absolute;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    font-size: 40px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+.colorText {
+    color: rgb(204, 135, 31);
+}
+
+.strokeSmall {
+    -webkit-text-stroke: 0.5px black;
+}
+
+.bgText {
+    background-color: grey;
+}
