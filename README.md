@@ -9,6 +9,7 @@ The goal was to present the company and list dynamically their actual sales.
 
 ## Architecture
 ![Alt text](Example-images/Architecture.png)
+
 To achieve this goal, I used an architecture with : a dynamic frontend / an API as backend / a database, all launched in docker containers.
 
 ## Technologies
