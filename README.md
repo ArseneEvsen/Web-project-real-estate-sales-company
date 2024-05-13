@@ -1,5 +1,7 @@
 # Web-project-real-estate-sales-company
 
+![til]([https://raw.githubusercontent.com/hashrocket/hr-til/master/app/assets/images/banner.png](https://github.com/ArseneEvsen/Web-project-real-estate-sales-company/blob/main/Example-images/Example_site.gif?raw=true))
+
 Full stack web project for a fictional real estate sales company. Technologies : ReactJS, Bootstrap, NodeJS, MySql, Docker.
 
 ## Description
