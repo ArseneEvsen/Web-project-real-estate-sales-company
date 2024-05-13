@@ -1,6 +1,6 @@
 # Web-project-real-estate-sales-company
 
-Full stack web project for a fictional real estate sales company. Technologies : ReactJS, NodeJS, MySql, Docker.
+Full stack web project for a fictional real estate sales company. Technologies : ReactJS, Bootstrap, NodeJS, MySql, Docker.
 
 ## Description
 
@@ -13,7 +13,7 @@ To achieve this goal, I used an architecture with : a dynamic frontend / an API 
 
 ## Technologies
 
-Frontend : React JS
+Frontend : React JS and Bootstrap
 Backend API : Nodejs/Express API
 Database : MySQL
 Deployment : Docker
@@ -44,7 +44,7 @@ docker-compose up -d
 
 #### Step 3 :
 
-When the project and the containers are launched for the first time, please restart manually the node_api and react_app containers. This is the only time this action is required.
+When the project and the containers are launched for the first time, please restart manually the node_api container once. This is the only time this action is required.
 
 #### Step 4 :
 
@@ -59,7 +59,7 @@ INSERT INTO regions VALUES ("Bretagne");
 
 INSERT INTO departments VALUES ("Morbihan","Bretagne");
 
-INSERT INTO cities VALUES ("Lorient","Morbihan");
+INSERT INTO cities VALUES ("Vannes","Morbihan");
 
 INSERT INTO houses (address,city,price,department,region,surface)
 VALUES ("10 rue X", "Lorient", "1 000 000", "Morbihan", "Bretagne", 550);
