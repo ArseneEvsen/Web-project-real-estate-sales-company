@@ -63,5 +63,5 @@ INSERT INTO departments VALUES ("Morbihan","Bretagne");
 INSERT INTO cities VALUES ("Vannes","Morbihan");
 
 INSERT INTO houses (address,city,price,department,region,surface)
-VALUES ("10 rue X", "Lorient", "1 000 000", "Morbihan", "Bretagne", 550);
+VALUES ("10 rue X", "Vannes", "1 000 000", "Morbihan", "Bretagne", 550);
 ```
