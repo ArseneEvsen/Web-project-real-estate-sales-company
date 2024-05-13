@@ -1,8 +1,6 @@
 # Web-project-real-estate-sales-company
-Example-images/Example_site.gif
-![til](https://github.com/ArseneEvsen/Web-project-real-estate-sales-company/blob/main/Example-images/Example_site.gif?raw=true)
-
 Full stack web project for a fictional real estate sales company. Technologies : ReactJS, Bootstrap, NodeJS, MySql, Docker.
+![til](https://github.com/ArseneEvsen/Web-project-real-estate-sales-company/blob/main/Example-images/Example_site.gif?raw=true)
 
 ## Description
 
@@ -10,7 +8,7 @@ In this project, I made a realistic web project for a fictional real estate sale
 The goal was to present the company and list dynamically their actual sales.
 
 ## Architecture
-
+![Alt text](Example-images/Architecture.png)
 To achieve this goal, I used an architecture with : a dynamic frontend / an API as backend / a database, all launched in docker containers.
 
 ## Technologies
